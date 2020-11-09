@@ -193,29 +193,6 @@ img{
   align-items: flex-end;
 }
 
-
-.language {
-  margin-right: 2rem;
-  border-radius: 5px;
-  width: 30%;
-  margin-bottom: 1rem;
-  height: 2rem;
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  background-color: var(--first-color);
-}
-.language a {
-  font-weight: 600;
-  color:black; 
-  transition: 0.8s ease-in;
-
-}
-.language a:hover {
-  color: white;
-  transition: 0.8s ease-in;
-}
-
 /*--ABOUT--*/
 
 .about__container{
@@ -367,10 +344,6 @@ img{
 }
 .contact-form div label {
   margin: 1rem 0;
-}
-.name_email label, .telephone_case label{
-  width: 45%;
-}
 
 .contact-form h3{
   color: #000000;

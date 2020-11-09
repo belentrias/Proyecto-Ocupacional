@@ -228,9 +228,7 @@ img{
   margin-bottom: var(--mb-2);
   text-align: center;
 }
-.about__text {
-  font-size: 1rem;
-}
+
 .about__courses{
   text-align: center;
   height: 100%;
@@ -275,9 +273,9 @@ img{
 
 }
 .skills__data{
-  display: flex;
+  
   justify-content: space-between;
-  align-items: center;
+  text-align: left;
   position: relative;
   font-weight: 600;
   padding: 0.5rem;
@@ -292,9 +290,9 @@ img{
   animation: changeColor 8s linear infinite
 }
 
-
 .skills__names{
   display: flex;
+  text-align: center;
   align-items: center;
 }
 
@@ -365,69 +363,6 @@ img{
   text-align: center;
   font-size: 1.5rem;
 }
-
-/*--CONTACT--*/
-
-.contact-form {
-  padding: 0 2rem;
-}
-.contact-form div label {
-  margin: 1rem 0;
-}
-.name_email label, .telephone_case label{
-  width: 45%;
-}
-
-.contact-form h3{
-  color: #000000;
-  font-size: 1.2em;
-  text-align: center;
-  margin: 1em 0 0.5em 1rem;
-}
-.contact-form form {
-  display: flex;
-  flex-direction: column;
-  color: var(--second-color-);
-}
-
-.contact-form form button,
-.contact-form form input,
-.contact-form form textarea {
-  width: 100%;
-  margin: 1rem 0;
-  border: none;
-  outline: none;
-  background: none;
-  border-bottom: 2px solid var(--first-color);
-  color: var(--second-color-);
-  resize:none;
-}
-.contact-form form button {
-  background: var(--first-color);
-  border: 0;
-  padding: 1em;
-  cursor: pointer;
-  color: #ffffff;
-  width: 8rem;
-  display: block;
-  margin: 1rem auto 0;
-  border-radius: 10px;
-  transition: all 1s ease-in-out;
-  font-size: 1rem;
-  font-weight: 600;
-  letter-spacing: 5px;
-}
-.contact-form form button:hover{
-  background-color: var(--second-color);
-  transition: all 1s ease-in-out;
-}
-.contact-form .text_form {
-  color:black;
-  font-size: 0.8rem;
-  padding-top: 1rem;
-  text-align: center;
-}
-
 
 
 /*FOOTER*/
@@ -539,10 +474,6 @@ img{
     grid-template-rows: repeat(2,1fr);
     column-gap: 2rem;
   }
-  .contact-form {
-    width: 30rem;
-    margin: auto;
-  }
 
 }
 
@@ -610,21 +541,3 @@ img{
      transition: 0.5s ease-in;
    }
 
-   /*Contact*/
-   
-  .contact-form {
-    width: 45rem;
-    padding: 0;
-  }
-  .name_email, .telephone_case {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .contact-form form button {
-    width: 10rem;
-    font-size: 1rem;
-  }
-
-}

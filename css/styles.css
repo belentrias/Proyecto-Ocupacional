@@ -311,56 +311,56 @@ img{
 }
 
 
-/*--WORK--*/
+/*--objetivos--*/
 
-.work p {
+.objetivos p {
   text-align: center;
   font-size: 1rem;
   font-weight: 600;
   
 }
-.work p a {
+.objetivos p a {
   color: var(--first-color);
   margin: 0 0.5rem;
   transition: all 0.5s ease-in;
 }
-.work p a i {
+.objetivos p a i {
   font-size: 1.5rem;
 }
-.work p a:hover {
+.objetivos p a:hover {
   transition: all 0.5s ease-in;
   color: var (var(--second-color));
 }
 
-.work__container{
+.objetivos__container{
  display: flex;
  flex-direction: column;
 }
 
-.work__container .project {
+.objetivos__container .project {
   width: 90%;
   margin: 1rem auto;
 
 }
-.work__img{
+.objetivos__img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
   border-radius: .5rem;
   overflow: hidden;
   padding: 35px;
 }
 
-.work__container .work__link{
+.objetivos__container .objetivos__link{
   text-align: center;
   color: var(--first-color);
 }
-.work__container .work__link:hover {
+.objetivos__container .objetivos__link:hover {
   color: var(--second-color);
 }
-.work__container .work__link i {
+.objetivos__container .objetivos__link i {
   margin-left: 5px;
 }
 
-.work__title {
+.objetivos__title {
   color: var(--second-color);
   text-align: center;
   font-size: 1.5rem;
@@ -532,9 +532,9 @@ img{
     width: 300px;
   }
 
-  /*Work*/
+  /*objetivos*/
 
-  .work__container{
+  .objetivos__container{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2,1fr);
     column-gap: 2rem;
@@ -595,17 +595,17 @@ img{
     display: none;
   }
 
-  /*Work*/
+  /*objetivos*/
 
-  .work__container{
+  .objetivos__container{
     flex-direction: row;
     padding: 0.5rem 2rem;
    }
-   .work__container .project {
+   .objetivos__container .project {
     transition: 0.5s ease-in;
 
    }
-   .work__container .project:hover {
+   .objetivos__container .project:hover {
      transform: scale(1.02);
      transition: 0.5s ease-in;
    }

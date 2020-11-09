@@ -179,7 +179,6 @@ img{
 }
 
 .home__social-icon:hover{
-  color: var(--first-color);
   transition: 0.5s ease-in-out;
 }
 

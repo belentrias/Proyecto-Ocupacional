@@ -259,9 +259,6 @@ img{
   align-items: center;
 }
 
-.skills__img{
-  border-radius: .5rem;
-}
 .skills p {
   text-align: center;
   font-size: 1rem;
@@ -311,11 +308,9 @@ img{
 
 .objetivos__container .objetivos__link{
   text-align: center;
-  color: var(--first-color);
-}
-.objetivos__container .objetivos__link:hover {
   color: var(--second-color);
 }
+
 .objetivos__container .objetivos__link i {
   margin-left: 5px;
 }
@@ -325,20 +320,12 @@ img{
   text-align: center;
   font-size: 1.5rem;
 }
+ /*reflexion */
 
-
-/*FOOTER*/
-.footer{
-  background-color: var(--second-color);
-  color: #fff;
+.reflexion {
+  padding: 10px;
   text-align: center;
-  font-weight: 400;
-  padding: 0.5rem 0;
 }
-.footer p {
-  font-size: 0.9em;
-}
-
 
 /*MEDIA QUERIES TABLET*/
 
